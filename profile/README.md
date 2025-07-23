@@ -16,10 +16,10 @@ The Emulation Platform enables the creation of digital twins of real-world edge 
 - Integration of lightweight Kubernetes clusters (K3s)
 - Kubernetes Without Kubelet (KWOK) for workload simulation
 - Multi-cluster federation capabilities via LIQO
-- Realistic 5G Standalone (SA) Network Emulation using Open5GS and UERANSIM
+- 5G Standalone (SA) Network Emulation using Open5GS and UERANSIM
 
 The platform supports research scenarios, including:
-- Mobility simulation between cells using Xn-based handover between gNBs to maintain connectivity during mobility
+- User mobility simulation between cells using Xn-based handover between gNBs to maintain connectivity during mobility
 
 ### Diagnostic Platform
 Complementing the Emulation Platform, the Diagnostic Platform provides analysis and performance metrics, identifying potential bottlenecks and ensuring quality-of-service for real-time edge applications.
