@@ -8,7 +8,7 @@ Real-time processing applications—such as autonomous driving, augmented realit
 
 EMULATE addresses a critical gap in edge computing adoption by providing essential tools:
 
-### Edge Emulation Platform (Primary Focus)
+### Edge Emulation Platform
 The Emulation Platform enables the creation of digital twins of real-world edge environments, including infrastructures, applications, and scenarios. This platform allows developers and researchers to rigorously test deployment scenarios and evaluate the performance of edge computing architectures under various realistic conditions.
 
 #### Key Features:
