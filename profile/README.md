@@ -24,6 +24,10 @@ The platform supports research scenarios, including:
 ### Diagnostic Platform
 Complementing the Emulation Platform, the Diagnostic Platform provides analysis and performance metrics, identifying potential bottlenecks and ensuring quality-of-service for real-time edge applications.
 
+A representative implementation of the project is depicted in the figure below.
+
+![Architecture Diagram](architecture.png)
+
 ## Project Context and Collaboration
 EMULATE is part of the European initiative "Important Project of Common European Interest – Next Generation Cloud Infrastructure" (IPCEI-CIS), aimed at developing a unified, multi-provider cloud-edge continuum branded as "8ra (ORA)". The project actively collaborates with industry leaders in telecommunications, automotive, and embedded electronics to ensure real-world relevance and applicability.
 
