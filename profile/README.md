@@ -1,40 +1,53 @@
-# EMULATE – Edge Emulation Platform
+# EMULATE Edge Emulation Platform
 
-Welcome to the official GitHub page for **Edge-Emulator**, focusing specifically on the Emulation Platform, a core component of the [EMULATE Project](https://www.fh-dortmund.de/microsite/smartedgelab/projekte/emulate.php). The EMULATE initiative develops advanced solutions for measuring, analyzing, and optimizing edge service performance within Europe's evolving cloud-edge continuum.
+Welcome to the official GitHub organization for **Edge-Emulator**, the emulation platform developed as part of the [EMULATE Project](https://www.fh-dortmund.de/microsite/smartedgelab/projekte/emulate.php). EMULATE develops methods, tools, and reference implementations for measuring, analyzing, and optimizing edge service performance across Europe's emerging cloud-edge continuum.
 
-## Project Overview
+## About EMULATE
 
-Real-time processing applications—such as autonomous driving, augmented reality, smart grid management, and drone operations—are increasingly relying on edge computing, where data is processed close to its source rather than at distant cloud centers.
+Real-time applications such as autonomous driving, augmented reality, smart grid management, and drone operations increasingly depend on edge computing, where data is processed close to its source instead of in distant cloud data centers.
 
-EMULATE addresses a critical gap in edge computing adoption by providing essential tools:
+EMULATE addresses a critical adoption challenge in edge computing: the need to evaluate distributed applications, networks, and infrastructure under realistic conditions before deployment. The project combines emulation, diagnostics, and performance analysis to support reproducible research and practical experimentation.
 
-### Edge Emulation Platform
-The Emulation Platform enables the creation of digital twins of real-world edge environments, including infrastructures, applications, and scenarios. This platform allows developers and researchers to rigorously test deployment scenarios and evaluate the performance of edge computing architectures under various realistic conditions.
+## Emulation Platform
 
-#### Key Features:
-- Built upon Containerlab for network emulation
-- Integration of lightweight Kubernetes clusters (K3s)
-- Kubernetes Without Kubelet (KWOK) for workload simulation
-- Multi-cluster federation capabilities via LIQO
-- 5G Standalone (SA) Network Emulation using Open5GS and UERANSIM
+The Emulation Platform enables the creation of digital twins of real-world edge environments, including infrastructure, applications, network topologies, and operational scenarios. It allows developers and researchers to test deployment strategies, evaluate edge architectures, and study system behavior under controlled, repeatable conditions.
 
-The platform supports research scenarios, including:
-- User mobility simulation between cells using Xn-based handover between gNBs to maintain connectivity during mobility
+Key capabilities include:
 
-### Diagnostic Platform
-Complementing the Emulation Platform, the Diagnostic Platform provides analysis and performance metrics, identifying potential bottlenecks and ensuring quality-of-service for real-time edge applications.
+- Network emulation based on Containerlab
+- Lightweight Kubernetes clusters with K3s
+- Workload simulation using Kubernetes WithOut Kubelet (KWOK)
+- Multi-cluster federation with LIQO
+- 5G Standalone (SA) network emulation using Open5GS and UERANSIM
+- User mobility simulation between cells through Xn-based handover between gNBs
 
-A representative implementation of the project is depicted in the figure below.
+## Diagnostic Capabilities
 
-![Architecture Diagram](architecture.png)
+The Diagnostic Platform complements the Emulation Platform with analysis workflows and performance metrics. It helps identify bottlenecks, assess quality of service, and support the optimization of latency-sensitive edge applications.
 
-## Project Context and Collaboration
-EMULATE is part of the European initiative "Important Project of Common European Interest – Next Generation Cloud Infrastructure" (IPCEI-CIS), aimed at developing a unified, multi-provider cloud-edge continuum branded as "8ra (ORA)". The project actively collaborates with industry leaders in telecommunications, automotive, and embedded electronics to ensure real-world relevance and applicability.
+## Reference Architecture
 
-We encourage engagement from academic and industry communities interested in contributing to cutting-edge developments in edge computing performance and optimization.
+A representative implementation of the project is shown below.
+
+![Architecture Diagram](assets/architecture.png)
+
+## European Funding Framework
+
+The EMULATE project is part of the European [Important Project of Common European Interest on Next Generation Cloud Infrastructure and Services (IPCEI-CIS)](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Artikel/Industry/ipcei-cis.html), aimed at developing a unified, multi-provider cloud-edge continuum branded as **8ra (ORA)**.
+
+EMULATE is funded by the European Union and the German Federal Ministry for Economic Affairs and Climate Action under research grant **13IPC012**.
+
+<p align="center">
+  <img src="assets/ipcei-cis-support.png" alt="Funded by the European Union and supported by the German Federal Ministry for Economic Affairs and Climate Action" width="360">
+</p>
+
+## Research and Industry Engagement
+
+EMULATE actively collaborates with academic and industrial partners across telecommunications, automotive systems, embedded electronics, and cloud-edge infrastructure to ensure real-world relevance and practical applicability. The project welcomes engagement from communities working on edge computing performance, digital twins, 5G/6G experimentation, and distributed application optimization.
 
 ## Publications
-- Urwah Muslim and Stephan Recker. "A Comparative Analysis of Digital Twins for Advanced Networks." IEEE 7th International Conference and Workshop Óbuda on Electrical and Power Engineering (CANDO-EPE), pp. 281–286, 2024. [DOI: 10.1109/CANDO-EPE65072.2024.10772762](https://doi.org/10.1109/CANDO-EPE65072.2024.10772762)
-- Urwah Muslim and Stephan Recker. “Demo: Emulation Platform to Build Digital Twins of Edge Computing Environments” IEEE/ACM Symposium on Edge Computing (SEC), pp. 512–514, 2024. [DOI: 10.1109/SEC62691.2024.00062](https://doi.org/10.1109/SEC62691.2024.00062)
 
-For comprehensive information, and detailed project updates, visit the [official EMULATE project page](https://www.fh-dortmund.de/microsite/smartedgelab/projekte/emulate.php).
+- Urwah Muslim and Stephan Recker. "A Comparative Analysis of Digital Twins for Advanced Networks." IEEE 7th International Conference and Workshop Óbuda on Electrical and Power Engineering (CANDO-EPE), pp. 281-286, 2024. [DOI: 10.1109/CANDO-EPE65072.2024.10772762](https://doi.org/10.1109/CANDO-EPE65072.2024.10772762)
+- Urwah Muslim and Stephan Recker. "Demo: Emulation Platform to Build Digital Twins of Edge Computing Environments." IEEE/ACM Symposium on Edge Computing (SEC), pp. 512-514, 2024. [DOI: 10.1109/SEC62691.2024.00062](https://doi.org/10.1109/SEC62691.2024.00062)
+
+For comprehensive information and project updates, visit the [official EMULATE project page](https://www.fh-dortmund.de/microsite/smartedgelab/projekte/emulate.php).
