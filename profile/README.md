@@ -31,19 +31,16 @@ A representative implementation of the project is shown below.
 
 ![Architecture Diagram](assets/architecture.png)
 
-## European Funding Framework
+## Project Funding and Support
 
-The EMULATE project is part of the European [Important Project of Common European Interest on Next Generation Cloud Infrastructure and Services (IPCEI-CIS)](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Artikel/Industry/ipcei-cis.html), aimed at developing a unified, multi-provider cloud-edge continuum branded as **8ra (ORA)**.
+The EMULATE project is part of the  IPCEI-CIS program  [(Important Project of Common European Interest on Next Generation Cloud Infrastructure and Services)](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Artikel/Industry/ipcei-cis.html), aimed at developing a unified, multi-provider cloud-edge continuum under the **8ra (ORA)** framework.
 
-EMULATE is funded by the European Union and the German Federal Ministry for Economic Affairs and Climate Action under research grant **13IPC012**.
+EMULATE is funded by the  European Union and the Federal Ministry for Economic Affairs and Energy under research grant **13IPC012**.
 
 <p align="center">
   <img src="assets/ipcei-cis-support.png" alt="Funded by the European Union and supported by the German Federal Ministry for Economic Affairs and Climate Action" width="360">
 </p>
 
-## Research and Industry Engagement
-
-EMULATE actively collaborates with academic and industrial partners across telecommunications, automotive systems, embedded electronics, and cloud-edge infrastructure to ensure real-world relevance and practical applicability. The project welcomes engagement from communities working on edge computing performance, digital twins, 5G/6G experimentation, and distributed application optimization.
 
 ## Publications
 
